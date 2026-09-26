@@ -605,3 +605,20 @@ section { margin-top: 64px; }
  .closing { padding-top: 12px; padding-bottom: 48px; }
  .closing .button { padding: 20px 24px; font-size: 1rem; }
 }
+
+/* Receipts uses the same product-page language as the home page. */
+.receipts-lead { max-width: 660px; margin: 0 auto 26px; font-size: 1.25rem; }
+.receipts-transformation { max-width: 920px; margin: 42px auto 8px; }
+.receipts-transformation>.kicker { text-align: center; }
+.receipts-page .illo { background: #f8fbf1; color: #152019; --heading: #152019; --muted: #4c574e; --border: #c9d6bd; --tint: #e3ebdc; border: 0; border-radius: 12px; padding: 32px; box-shadow: 0 14px 40px #15201912; }
+.receipts-page .illo-label { font-size: .9375rem; text-transform: none; letter-spacing: 0; }
+.receipts-page .filename { font-size: 1rem; }
+.receipts-page .illustration figcaption { color: #263b24; font-size: .9375rem; max-width: 760px; margin: 18px auto 0; text-align: center; }
+.receipts-page .features { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; margin-top: 44px; counter-reset: feature; }
+.receipts-page .features li { counter-increment: feature; padding: 24px 0 12px; background: transparent; border: 0; border-top: 1px solid var(--border); border-radius: 0; }
+.receipts-page .features li::before { content: '0' counter(feature); display: block; font-size: .9375rem; color: var(--muted); margin-bottom: 28px; }
+.receipts-page .features h3 { font-size: 1.5rem; margin-bottom: 12px; }
+.receipts-page .features p { font-size: 1.125rem; }
+.receipts-page .receipts-disclaimer { font-size: .9375rem; font-weight: 400; letter-spacing: 0; color: var(--muted); margin-top: 26px; }
+@media (max-width: 900px) { .receipts-page .features { grid-template-columns: repeat(2,minmax(0,1fr)); } .receipts-page .illo { grid-template-columns: 1fr; } .receipts-page .illo-arrow { transform: rotate(90deg); justify-self: start; margin: 0; } }
+@media (max-width: 640px) { .receipts-page .features { grid-template-columns: 1fr; gap: 12px; } .receipts-page .features li::before { margin-bottom: 16px; } .receipts-page .illo { padding: 22px 18px; } .receipts-page .filename { font-size: .9375rem; } .receipts-transformation { margin-top: 32px; } }

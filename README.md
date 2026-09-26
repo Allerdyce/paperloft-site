@@ -52,7 +52,7 @@ These are the rules for this site. Anyone editing it, human or agent, should kee
 - The home page adds an owner-directed soft leaf-green accent (`#C9DFA8`) and neutral surfaces. Core colors from the icon: deep green `#083920`, tray green `#10462A`, line green `#104A2E`, paper cream `#F8F1E0`, near-black `#1A1F1C`. All are defined as CSS variables at the top of `assets/site.css`, with the contrast ratios noted. Every text pairing must meet WCAG AA.
 - Light and dark mode follow `prefers-color-scheme`.
 - System font stack only, tabular numbers for figures.
-- Product-led home page up to 1160 px wide, with a soft leaf-green hero, bold system typography, clearly labeled workflow illustrations, feature sections, and native FAQ disclosures. Text and support pages remain about 720 px wide. Must work at 375 px with no sideways scrolling.
+- Product-led home page up to 1160 px wide, with a soft leaf-green hero, bold system typography, clearly labeled workflow illustrations, feature sections, and native FAQ disclosures. The Receipts page shares this product-page design language. Privacy and support pages remain about 720 px wide. Must work at 375 px with no sideways scrolling.
 - Each page's `<head>` has a title, meta description, canonical URL on `https://paperloft.app/...`, Open Graph title/description/image, and `theme-color` `#083920`.
 
 ## Preview locally
