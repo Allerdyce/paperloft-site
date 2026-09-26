@@ -52,7 +52,7 @@ These are the rules for this site. Anyone editing it, human or agent, should kee
 - Colors from the icon: deep green `#083920`, tray green `#10462A`, line green `#104A2E`, paper cream `#F8F1E0`, near-black `#1A1F1C`. All are defined as CSS variables at the top of `assets/site.css`, with the contrast ratios noted. Every text pairing must meet WCAG AA.
 - Light and dark mode follow `prefers-color-scheme`.
 - System font stack only, tabular numbers for figures.
-- One column, about 720 px wide. Must work at 375 px with no sideways scrolling.
+- Editorial home page up to 1160 px wide, with paired copy and clearly labeled workflow illustrations. Text and support pages remain about 720 px wide. Must work at 375 px with no sideways scrolling.
 - Each page's `<head>` has a title, meta description, canonical URL on `https://paperloft.app/...`, Open Graph title/description/image, and `theme-color` `#083920`.
 
 ## Preview locally
