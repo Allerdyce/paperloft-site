@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body class="landing">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -37,48 +37,68 @@
   </header>
 
   <main id="main">
-    <div class="wrap">
+    <section class="launch-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <div class="hero-heading">
+          <p class="kicker">Paperloft · Mac apps for your paperwork</p>
+          <h1 id="page-title">Less paperwork.<br>More headspace.</h1>
+          <a class="button" href="/receipts/">Meet Paperloft Receipts <span aria-hidden="true">↗</span></a>
+          <p class="availability">Coming soon to the Mac</p>
+        </div>
+        <div class="hero-stage">
+          <div class="stage-copy"><h2>Your paperwork,<br>filed.</h2><p>Mac apps that name, sort and keep your paperwork, privately, on your Mac.</p><a href="#how-it-works">See how it works ↓</a></div>
+        <figure class="paper-scene" aria-label="Illustration of a receipt becoming an organized record">
+          <div class="scene-grid" aria-hidden="true"></div>
+          <div class="scene-note">FROM THE PILE. INTO PLACE.</div>
+          <div class="receipt-slip" aria-hidden="true">
+            <span class="receipt-mark">P.</span><strong>THE CORNER STORE</strong><small>SEPTEMBER 18, 2026</small>
+            <div class="receipt-rule"></div><div class="receipt-item"><span>Office supplies</span><span>68.00</span></div>
+            <div class="receipt-item"><span>Tax</span><span>6.90</span></div>
+            <div class="receipt-total"><span>TOTAL</span><span>$74.90</span></div>
+            <div class="barcode"></div><small>A LITTLE LESS PAPERWORK.</small>
+          </div>
+          <div class="filing-card" aria-hidden="true">
+            <div class="filing-top"><span class="small-icon">↳</span><span>A place for everything</span><span class="file-check">✓</span></div>
+            <div class="filing-path">2026 <span>/</span> Supplies</div>
+            <div class="file-record"><span class="paper-symbol">≡</span><div><strong>The Corner Store</strong><small>Sep 18, 2026 · Supplies</small></div><b>$74.90</b></div>
+            <div class="file-caption">Named. Sorted. Yours.</div>
+          </div>
+          <figcaption>Workflow illustration · Sample receipt</figcaption>
+        </figure>
+          <div class="stage-note"><span class="step-tag">01 / RECEIPTS</span><h3>From the pile.<br>Into place.</h3><p>Receipts and bills become tidy, searchable records.</p><span class="local-badge">↳ Everything stays on your Mac</span></div>
+        </div>
+      </div>
+    </section>
 
-      <section class="hero" aria-labelledby="page-title">
-        <img class="app-icon" src="/assets/paperloft-icon-256.png" width="128" height="128" alt="Paperloft app icon: a cream receipt resting in a green tray">
-        <h1 id="page-title" class="wordmark">Paperloft</h1>
-        <p class="promise">Your paperwork, filed.</p>
-        <p class="lead">Mac apps that name, sort and keep your paperwork, privately, on your Mac.</p>
-      </section>
+    <section class="feature-section wrap" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-side"><p class="kicker">Meet Paperloft Receipts</p><h2 id="how-title">Small receipts.<br>Big sigh of relief.</h2><p>Drop in your receipts and bills. Get them ready for your accountant.</p></div>
+      <div class="feature-stack">
+        <div><span>01</span><h3>Named.</h3><p>Paperloft reads each receipt on your Mac and suggests a name, date, vendor, total and category.</p></div>
+        <div><span>02</span><h3>Filed.</h3><p>Check the suggestions, then keep tidy records sorted by year and category. Your files stay ordinary files in a folder you choose.</p></div>
+        <div><span>03</span><h3>Ready.</h3><p>Export an accountant pack: a summary PDF, a spreadsheet file, and your documents sorted by category.</p></div>
+        <a class="more-link" href="/receipts/">Explore Paperloft Receipts ↗</a>
+      </div>
+    </section>
 
-      <section aria-labelledby="apps-title">
-        <h2 id="apps-title" class="sr-only">Apps</h2>
-        <article class="card app-card" aria-labelledby="receipts-title">
-          <p class="eyebrow">Coming soon to the Mac</p>
-          <h3 id="receipts-title">Paperloft Receipts</h3>
-          <p>Drop in your receipts and bills, and Paperloft Receipts names them, files them and gets them ready for your accountant.</p>
-          <p><a class="more-link" href="/receipts/">About Paperloft Receipts <span aria-hidden="true">→</span></a></p>
-        </article>
-      </section>
+    <section class="formats-section" aria-labelledby="formats-title">
+      <div class="wrap"><p class="kicker">Start with what you have</p><h2 id="formats-title">Different formats.<br>One tidy place.</h2>
+        <ul class="format-grid"><li><span class="format-art" aria-hidden="true">PDF<span>≡</span></span><h3>PDFs &amp; bills</h3><p>The records already on your Mac.</p></li><li><span class="format-art photo-art" aria-hidden="true">JPG<span>▧</span></span><h3>Photos &amp; scans</h3><p>Paper receipts, without the pile.</p></li><li><span class="format-art mail-art" aria-hidden="true">MAIL<span>↙</span></span><h3>Email attachments</h3><p>Bring your receipts out of your inbox.</p></li></ul>
+      </div>
+    </section>
 
-      <section aria-labelledby="principles-title">
-        <h2 id="principles-title">How Paperloft apps work</h2>
-        <ul class="principles">
-          <li>
-            <h3>It stays on your Mac.</h3>
-            <p>Your documents are read and organized on your Mac. We never receive them.</p>
-          </li>
-          <li>
-            <h3>No account to create.</h3>
-            <p>Open the app and start. There’s nothing to sign up for.</p>
-          </li>
-          <li>
-            <h3>Made only for the Mac.</h3>
-            <p>Designed for macOS and the way you already work on it.</p>
-          </li>
-        </ul>
-      </section>
+    <section class="privacy-band" aria-labelledby="privacy-title"><div class="wrap privacy-grid">
+      <div><p class="kicker">Private by design</p><h2 id="privacy-title">Your documents.<br>Your Mac.<br>Your business.</h2></div>
+      <div class="privacy-copy"><p>Your documents are read and organized on your Mac. We never receive them.</p><ul><li>No account to create.</li><li>No analytics.</li><li>Made only for macOS.</li></ul><a href="/privacy/">Read our privacy policy ↗</a></div>
+    </div></section>
 
-      <section>
-        <p class="on-the-way">More Paperloft apps for your paperwork are on the way.</p>
-      </section>
-
-    </div>
+    <section class="faq-section wrap" aria-labelledby="faq-title"><h2 id="faq-title">A few things<br>worth knowing.</h2><div class="faq-list">
+      <details><summary>Can I download Paperloft Receipts yet?</summary><p>Not yet. Paperloft Receipts is coming soon to the Mac App Store.</p></details>
+      <details><summary>Do my documents leave my Mac?</summary><p>Your documents are read and organized on your Mac using Apple’s on-device technology. We never receive them.</p></details>
+      <details><summary>What can I send to my accountant?</summary><p>Export an accountant pack for a tax year or quarter: a summary PDF, a spreadsheet file, and the documents sorted by category. Paperloft organizes records; it isn’t tax advice.</p></details>
+      <details><summary>Will there be more Paperloft apps?</summary><p>Yes. More Paperloft apps for your paperwork are on the way.</p></details>
+      <details><summary>How can I get in touch?</summary><p>Email <a href="mailto:support@paperloft.app">support@paperloft.app</a> or visit our <a href="/support/">support page</a>.</p></details>
+    </div></section>
+    <section class="closing wrap"><p>Less sorting. More sorted.</p><a class="button" href="/receipts/">Get to know Paperloft Receipts ↗</a><span>Coming soon to the Mac</span></section>
   </main>
 
   <footer class="site-footer">
